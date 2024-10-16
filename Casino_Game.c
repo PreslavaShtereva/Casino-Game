@@ -27,7 +27,7 @@ int getPlayerGuess() {
 }
 
 int main() {
-    int totalCash = 1000;  // Starting amount of money for the player
+    int totalCash = 1000; 
     int betAmount, playerGuess, randomNumber;
     char playAgain;
 
@@ -61,7 +61,7 @@ int main() {
 
         if (totalCash > 0) {
             printf("Do you want to play again? (y/n): ");
-            scanf(" %c", &playAgain);  // Space before %c to ignore any newline character in the buffer
+            scanf(" %c", &playAgain); 
         }
 
     } while (playAgain == 'y' || playAgain == 'Y');
